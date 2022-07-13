@@ -1,7 +1,7 @@
 var mouseEvent = "empty";
 var lastPositionX,lastPositionY; 
 canvas = document.getElementById('myCanvas');
-stx = canvas.getContext("2d");
+ctx = canvas.getContext("2d");
 color = "black";
 widthLine = 1;
 canvas.addEventListener("mousedown", myMouseDown);
